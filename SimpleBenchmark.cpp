@@ -31,4 +31,5 @@ double SimpleBenchmark::GetDurationMicroSec()
 double SimpleBenchmark::GetDurationMiliSec()
 {
     auto ms = this->GetDurationMicroSec() * 0.001;     // duration in milisecond
+    return ms;
 }
